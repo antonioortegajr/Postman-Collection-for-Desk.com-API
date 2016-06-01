@@ -1,0 +1,36 @@
+{
+	"id": "f2f837eb-8bd2-8f9e-105b-109d15f6b846",
+	"name": "Desk",
+	"description": "",
+	"order": [
+		"41e8f4c7-a9a3-b961-5c59-373eca0c285a"
+	],
+	"folders": [],
+	"timestamp": 1464819093167,
+	"owner": "282275",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "41e8f4c7-a9a3-b961-5c59-373eca0c285a",
+			"headers": "Content-Type: application/json\nAuthorization: Basic Og==\n",
+			"url": "https://idxbroker.desk.com/api/v2/insights3/reports",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "f2f837eb-8bd2-8f9e-105b-109d15f6b846",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://idxbroker.desk.com/api/v2/insights3/reports",
+			"description": "Report endpoint\n\nAPI docs: http://dev.desk.com/API/insights3/#reports-create",
+			"descriptionFormat": "html",
+			"time": 1464819235335,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"fields\":[\"resolved_cases\"], \"dimension1\":\"action_agent\", \"time\":{\"min\":\"2016-05-05T03:43:04.701Z\", \"max\":\"2016-05-05T23:43:04.701Z\",  \"window_size\":\"none\"}}"
+		}
+	]
+}
